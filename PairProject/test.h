@@ -1,6 +1,7 @@
 #include "generator.h"
 #include "utils.h"
 #include "max.h"
+#include "min.h"
 #include <vector>
 
 void testPrint()
