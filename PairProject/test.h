@@ -1,5 +1,6 @@
 #include "generator.h"
 #include "utils.h"
+#include "max.h"
 #include <vector>
 
 void testPrint()
@@ -12,4 +13,9 @@ void testUtils()
 	std::vector<double> v = getRandomValues();
 	printVector( v );
 	std::cout << sumNumbersInVector( v );
+}
+
+void testMax(){
+	std::vector<double> v = getRandomValues();
+	std::cout << max(v);
 }
