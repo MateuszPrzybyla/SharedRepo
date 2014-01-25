@@ -3,6 +3,7 @@
 int main()
 {
 	testPrint();
+	testUtils();
 
 	system("pause");
 
